@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home.html">Shashank</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="resume.pdf" class="nav-link resume-btn" id="resumeBtn">
+                        <i class="fas fa-download"></i> Resume
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hello, I'm <span class="highlight">Shashank</span></h1>
+                <p class="hero-subtitle">Full Stack Developer</p>
+                <p class="hero-description">
+                    I create digital experiences that are beautiful, functional, and user-centered.
+                    Passionate about clean code and innovative solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="shashank.jpg"
+                            alt="Shashank">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>I'm a passionate developer with 2+ years of experience</h3>
+                    <p>
+                        I specialize in creating modern, responsive web applications using cutting-edge technologies.
+                        My journey in web development started with a curiosity about how things work on the internet,
+                        and it has evolved into a passion for creating seamless digital experiences.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new technologies, contributing to open-source
+                        projects, or sharing knowledge with the developer community. I believe in continuous learning
+                        and staying updated with the latest industry trends.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>5</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>2</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h4>3</h4>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <h3>My Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">HTML/CSS</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">C</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                         <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">C++</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-percentage">50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="50%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="about-certifications">
+                    <h3>CERTIFICATION</h3>
+                    <ul class="certification-list">
+                        <li>
+                            <i class="fas fa-certificate"></i> Python certificate
+                            <a href="certificate-PY-2023-2025-324e4c84-889769.pdf" download class="btn-download">Download</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-certificate"></i> Poweer-bi Certificate
+                            <a href="power.bi.pdf" download class="btn-download">Download</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-certificate"></i> Oracle certificate
+                            <a href="oracle.pdf" download class="btn-download">Download</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Shashank. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> and lots of coffee</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
